@@ -36,9 +36,9 @@ function Section() {
           className="videoscase"
           src="https://www.youtube.com/embed/TzoZvKsr5wU?si=vxBxK8TtH8rkBu_y"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          // allowfullscreen
         ></iframe>
       </article>
     </section>
