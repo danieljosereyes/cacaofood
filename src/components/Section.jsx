@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Section() {
   return (
@@ -31,6 +31,7 @@ function Section() {
         />
       </article>
       <article className="video">
+        <h2 className="nosotros_h2">PROYECTOS A FUTURO</h2>
         <iframe
           className="videoscase"
           src="https://www.youtube.com/embed/TzoZvKsr5wU?si=vxBxK8TtH8rkBu_y"
