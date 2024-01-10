@@ -16,6 +16,9 @@ function Menu() {
         <li>
           <Link className="link_decorate" to="/cacaofood/contactus">contact us</Link>
         </li>
+        <li>
+          <Link className="link_decorate" to="/cacaofood/login">login</Link>
+        </li>
       </ul>
     </div>
   );
