@@ -116,20 +116,26 @@ svg {
 .menus--box {
   width: 150px;
   height: 150px;
-  border: 2px solid #237847;
-  margin: 10px;
+  border: 1px solid #3f3f46;
+  border-radius: .5rem;
+  padding: 15px;
 }
 
 .menus--text {
   text-align: center;
+  color: #a1a1aa;
 }
 
-.pages {
+.nav_pages {
+  padding: 0;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 .link_decorate {
   text-decoration: none;
   color: #ffffff;
+  margin: 0 10px;
 }
 
 .container--form {

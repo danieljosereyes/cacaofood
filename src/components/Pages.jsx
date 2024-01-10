@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Menu() {
   return (
     <div>
-      <ul className="pages">
+      <ul className="nav_pages">
         <li>
           <Link className="link_decorate" to="/cacaofood">main</Link>
         </li>
